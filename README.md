@@ -51,6 +51,12 @@ And, include the jQuery library (version 1.7 or newer) and MacScroller script in
 | `smooth` | Enables smooth scrolling for internal page links | Boolean | true |
 | `offset` | If smooth is enabled, sets the scroll offset for internal links. Usually this would be set to the height of the navigation bar | Integer | 100 |
 
+## Goals
+
+- browser testing and improving browser compatibility
+- extend documentation to include browser compatibility
+- built WordPress version of this plugin
+
 ## Changelog
 
 ### Version 0.1.1
