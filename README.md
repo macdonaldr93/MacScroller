@@ -4,7 +4,16 @@ Lightweight jQuery plugin to enable a cross-browser flexible scroll to top funct
 
 ## Setup
 
-Include the jQuery library (version 1.7 or newer) and MacScroller script in your webpage (preferably before the closing BODY tag):
+Include Font Awesome and the MacScroller stylesheet in your webpage (preferably before the closing HEAD tag):
+
+```html
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link type="text/css" href="assets/js/mac-scroller/mac-scroller.css" rel="stylesheet">
+
+```
+
+And, include the jQuery library (version 1.7 or newer) and MacScroller script in your webpage (preferably before the closing BODY tag):
 
 ```html
 
@@ -29,15 +38,6 @@ Include the jQuery library (version 1.7 or newer) and MacScroller script in your
 
 ```
 
-and include Font Awesome and the MacScroller stylesheet in your webpage (preferably before the closing HEAD tag):
-
-```html
-
-<link type="text/css" href="assets/js/mac-scroller/mac-scroller.css" rel="stylesheet">
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-```
-
 ## Options
 
 | Name | Description | Type | Default |
@@ -52,6 +52,10 @@ and include Font Awesome and the MacScroller stylesheet in your webpage (prefera
 | `offset` | If smooth is enabled, sets the scroll offset for internal links. Usually this would be set to the height of the navigation bar | Integer | 100 |
 
 ## Changelog
+
+### Version 0.1.1
+
+Improve documentation
 
 ### Version 0.1.0
 
