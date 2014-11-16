@@ -9,7 +9,7 @@ Include Font Awesome and the MacScroller stylesheet in your webpage (preferably 
 ```html
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link type="text/css" href="assets/js/mac-scroller/mac-scroller.css" rel="stylesheet">
+<link type="text/css" href="/path/to/mac-scroller.css" rel="stylesheet">
 
 ```
 
@@ -18,7 +18,7 @@ And, include the jQuery library (version 1.7 or newer) and MacScroller script in
 ```html
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="jquery.mac-scroller.min.js"></script>
+<script src="/path/to/jquery.mac-scroller.min.js"></script>
 <script>
   // Initialize Mac Scroller
   $("body").MacScroller();
