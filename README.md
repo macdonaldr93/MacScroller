@@ -44,7 +44,7 @@ And, include the jQuery library (version 1.7 or newer) and MacScroller script in
 |------|-------------|------|---------|
 | `background` | The background color of the scroller element | String | "black" |
 | `color` | The color of the arrow within the scroller element | String | "white" |
-| `transparency` | The opacity of the entire scroller element | Integer | 100 |
+| `transparency` | The opacity of the entire scroller element | Integer | 90 |
 | `positionX` | The horizontal position of the scroller on the page. Options include: "left" or "right" | String | "right" |
 | `positionY` | The vertical position of the scroller on the page. Options include: "top" or "bottom" | String | "bottom" |
 | `fadeSpeed` | The speed at which the scroller fades in at in milliseconds | Integer | 200 |
