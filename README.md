@@ -2,6 +2,14 @@
 
 Lightweight jQuery plugin to enable a cross-browser flexible scroll to top function and adds smooth scrolling for internal links.
 
+## Browser Support
+
+- Internet Explorer 8+
+- Firefox 4+
+- Google Chrome
+- Opera 10.6+
+- Safari 4+
+
 ## Setup
 
 Include Font Awesome and the MacScroller stylesheet in your webpage (preferably before the closing HEAD tag):
@@ -53,13 +61,15 @@ And, include the jQuery library (version 1.7 or newer) and MacScroller script in
 
 ## Goals
 
-- browser testing and improving browser compatibility
-- extend documentation to include browser compatibility
 - built WordPress version of this plugin
 
 ## Changelog
 
-### Version 0.1.1
+### Version 1.0.0
+
+Updated for browser compatibility. Ready for usage.
+
+### Version 0.2.0
 
 Improve documentation
 
